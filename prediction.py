@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 import pandas as pd
 import pickle as pkl
+import numpy as np
 
 
 
@@ -52,8 +53,19 @@ def result():
     result_1 = model.predict(df_array)
     result_2 = model.predict_proba(df_array)
 
+    output = ""
 
-    return str(f"Prediction is: {result_1}, Predict_proba is: {result_2}")
+    if result_2[0][1]>0.70:
+        output=  f"          It's a HOT LEAD,   There is chances of {np.round(result_2[0][1], 2) * 100}% of conversion"
+
+    elif 0.30 <= result_2[0][1] <= 0.70:
+        output = f"          It's a  WARM LEAD, There is chances of {np.round(result_2[0][1], 2) * 100}% of conversion"
+
+    elif  result_2[0][1] < 0.30:
+        output =  f"          It's a COLD LEAD: There is chances of only {np.round(result_2[0][1], 2) * 100}% of conversion"
+
+    return render_template('result.html', result=output)
+
 
 
 
