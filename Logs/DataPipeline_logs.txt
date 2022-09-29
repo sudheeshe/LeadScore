@@ -1,0 +1,45 @@
+2022-09-30/00:31:31		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-09-30/00:31:31		Read raw_data.csv successfully as a dataframe.
+2022-09-30/00:31:31		renaming columns and categories done successfully.
+2022-09-30/00:31:31		Successfully splited the data into train and test and saving test data @ Data/test_dataframe.csv .
+2022-09-30/00:31:31		Starting Feature engineering.
+2022-09-30/00:31:31		Dropping 'default', 'pdays', 'duration' columns from dataframe.
+2022-09-30/00:31:31		Splitting dataframe to X and Y.
+2022-09-30/00:31:31		Merging non frequent categories into one single categories on 'job', 'education', 'month',campaign', 'previous' columns.
+2022-09-30/00:31:31		Categorical encoding started on X.
+2022-09-30/00:31:32		Label encoding started on Y.
+2022-09-30/00:31:32		Applying Oversampling by SMOTE on dataset.
+2022-09-30/00:31:33		Successfully completed Feature engineering on the dataset.
+2022-09-30/00:31:33		Saving the dataset @ Data/x_train.csv, Data/y_train.csv.
+2022-09-30/00:31:33		Returning dataframes x_train, y_train.
+2022-09-30/00:31:33		Leaving data_pipeline method of stage_3 class
+2022-09-30/02:07:49		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-09-30/02:07:49		Read raw_data.csv successfully as a dataframe.
+2022-09-30/02:07:49		renaming columns and categories done successfully.
+2022-09-30/02:07:49		Successfully splited the data into train and test and saving test data @ Data/test_dataframe.csv .
+2022-09-30/02:07:49		Starting Feature engineering.
+2022-09-30/02:07:49		Dropping 'default', 'pdays', 'duration' columns from dataframe.
+2022-09-30/02:07:49		Splitting dataframe to X and Y.
+2022-09-30/02:07:49		Merging non frequent categories into one single categories on 'job', 'education', 'month',campaign', 'previous' columns.
+2022-09-30/02:07:49		Categorical encoding started on X.
+2022-09-30/02:07:49		Label encoding started on Y.
+2022-09-30/02:07:49		Applying Oversampling by SMOTE on dataset.
+2022-09-30/02:07:50		Successfully completed Feature engineering on the dataset.
+2022-09-30/02:07:50		Saving the dataset @ Data/x_train.csv, Data/y_train.csv.
+2022-09-30/02:07:50		Returning dataframes x_train, y_train.
+2022-09-30/02:07:50		Leaving data_pipeline method of stage_3 class
+2022-09-30/02:08:12		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-09-30/02:08:12		Read raw_data.csv successfully as a dataframe.
+2022-09-30/02:08:12		renaming columns and categories done successfully.
+2022-09-30/02:08:12		Successfully splited the data into train and test and saving test data @ Data/test_dataframe.csv .
+2022-09-30/02:08:12		Starting Feature engineering.
+2022-09-30/02:08:12		Dropping 'default', 'pdays', 'duration' columns from dataframe.
+2022-09-30/02:08:12		Splitting dataframe to X and Y.
+2022-09-30/02:08:12		Merging non frequent categories into one single categories on 'job', 'education', 'month',campaign', 'previous' columns.
+2022-09-30/02:08:12		Categorical encoding started on X.
+2022-09-30/02:08:13		Label encoding started on Y.
+2022-09-30/02:08:13		Applying Oversampling by SMOTE on dataset.
+2022-09-30/02:08:14		Successfully completed Feature engineering on the dataset.
+2022-09-30/02:08:14		Saving the dataset @ Data/x_train.csv, Data/y_train.csv.
+2022-09-30/02:08:14		Returning dataframes x_train, y_train.
+2022-09-30/02:08:14		Leaving data_pipeline method of stage_3 class

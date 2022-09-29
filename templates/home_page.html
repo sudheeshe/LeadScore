@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Output Tag</title>
+   </head>
+   <body>
+   <p>
+      <h1>Lead Score</h1>
+   </p>
+      <form action="/submit" method="post">
+         <label>Age (int: 17 to 60)</label><br>
+         <input type="text" name="age" value=""/><br>
+         <br>
+         <tr>
+            <td>Job :</td>
+            <td>
+               <select name = 'job' id="job">
+                  <option value="admin.">Admin</option>
+                  <option value='blue-collar'>Blue-collar job</option>
+                  <option value='technician'>Technician</option>
+                  <option value='services'>Services</option>
+                  <option value='management'>Management</option>
+                  <option value="other">Other</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Marital :</td>
+            <td>
+               <select name = 'marital' id="marital">
+                  <option value="married">Married</option>
+                  <option value='single'>Single</option>
+                  <option value='divorced'>Divorced</option>
+                  <option value='unknown'>Unknown</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Education :</td>
+            <td>
+               <select name = 'education' id="education">
+                  <option value="university_degree">Degree</option>
+                  <option value='high_school'>High School</option>
+                  <option value='professional_course'>Professional course</option>
+                  <option value='basic_9y'>Basic_9y</option>
+                  <option value="basic_6y">Basic_6y</option>
+                  <option value='basic_4y'>Basic_4y</option>
+                  <option value='other'>Other</option>
+
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Housing loan :</td>
+            <td>
+               <select name = 'housing' id="housing">
+                  <option value="yes">Yes</option>
+                  <option value='no'>No</option>
+                  <option value='unknown'>unknown</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Personal loan :</td>
+            <td>
+               <select name = 'loan' id="loan">
+                  <option value="yes">Yes</option>
+                  <option value='no'>No</option>
+                  <option value='unknown'>unknown</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Mode of contact :</td>
+            <td>
+               <select name = 'contact' id="contact">
+                  <option value="cellular">Mobile phone</option>
+                  <option value='telephone'>Telephone</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Last contact month of year :</td>
+            <td>
+               <select name = 'month' id="month">
+
+                  <option value='apr'>April</option>
+                  <option value='may'>May</option>
+                  <option value='jun'>June</option>
+                  <option value='jul'>July</option>
+                  <option value="aug">August</option>
+                  <option value='nov'>November</option>
+                  <option value='other'>Other</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Last contact day of the week :</td>
+            <td>
+               <select name = 'day_of_week' id="day_of_week">
+                  <option value="mon">Monday</option>
+                  <option value='tue'>Tuesday</option>
+                  <option value='wed'>Wednesday</option>
+                  <option value='thu'>Thursday</option>
+                  <option value='fri'>Friday</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Campaign :</td>
+            <td>
+               <select name = 'campaign' id="campaign">
+                  <option value='1'>1</option>
+                  <option value='2'>2</option>
+                  <option value='3'>3</option>
+                  <option value='4'>4</option>
+                  <option value='more_than_4'> >4 </option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Previous :</td>
+            <td>
+               <select name = 'previous' id="previous">
+                  <option value="0">0</option>
+                  <option value='1'>1</option>
+                  <option value='more_than_1'> >1 </option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+         <tr>
+            <td>Outcome of the previous marketing campaign :</td>
+            <td>
+               <select name = 'poutcome' id="poutcome">
+                  <option value="nonexistent">Non-existent</option>
+                  <option value='failure'>Failure</option>
+                  <option value='success'>Success</option>
+               </select>
+            </td>
+         </tr>
+         <br>
+         <br>
+
+
+
+         <label>Emp_var_rate (float: -3.4 to +1.4)</label><br>
+         <input type="text" name="emp_var_rate" value=""/><br><br>
+         <label>Cons_price_idx (float: 92 to 94) </label><br>
+         <input type="text" name="cons_price_idx" value=""/><br><br>
+         <label>Cons_conf_idx (float: -51 to -26)</label><br>
+         <input type="text" name="cons_conf_idx" value=""/><br><br>
+         <label>Euribor3m (float: 0.6 to 5)</label><br>
+         <input type="text" name="euribor3m" value=""/><br><br>
+         <label>Nr_employed (int: 5000 to 5228) </label><br>
+         <input type="text" name="nr_employed" value=""/><br><br>
+         <br>
+         <br/>
+         <tr>
+            <td><input type="submit" value="Submit"></td>
+         </tr>
+
+      </form>
+   </body>
+</html>
