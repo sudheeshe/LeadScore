@@ -35,8 +35,8 @@ def result():
     nr_employed = float(request.form.get('nr_employed'))
 
     # Loading pickle files
-    cat_encoder = pkl.load(open('D:/Ineuron/Project_workshop/LeadScore/Pickle/categorical_encoder.pkl', 'rb'))
-    model = pkl.load(open('D:/Ineuron/Project_workshop/LeadScore/Models/Logistic_Regressor.pkl', 'rb'))
+    cat_encoder = pkl.load(open('Pickle/categorical_encoder.pkl', 'rb'))
+    model = pkl.load(open('Models/Logistic_Regressor.pkl', 'rb'))
 
 
 
