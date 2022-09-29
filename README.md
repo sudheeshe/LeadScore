@@ -370,17 +370,25 @@ Let's see distribution
 - Applying LabelEncoding on target column `y`.
 - Oversampling minority class using SMOTE
 - Note: - VIF used for feature selection but model gave poor results.
-- 
-![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/79_.jpg?raw=true)
+
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/79_.png?raw=true)
 
 
-## Model Evaluation
-- Logistic Regression gave better result compared to Random Forest and XGBoost classifiers
 
+## Model Bulding and Evaluation
+- Used Logistic Regression, Decision Tree, SVC, Random Forest and XGBoost initially
+- Decision tree was getting biased towards majority class
+- SVC was taking more time for training, so due to lack of resource I've not used SVC.
+- Logistic Regression gave better result compared to Random Forest and XGBoost classifiers.
+- Results are below.
+
+#### Logestic Regressor
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/76_.jpg?raw=true)
-- 
+
+#### Random Forest Classifier
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/77_.jpg?raw=true)
 
+#### XGBoost Classifier
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/78_.jpg?raw=true)
 
 ## Final Results and Prediction
