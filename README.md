@@ -1,10 +1,9 @@
 
 # Lead Scoring using Machine Learning
 
-A brief description of what this project does and who it's for
 
 
-# Documentation
+
 
 [What Lead Score means...??](https://linktodocumentation)
 
@@ -25,11 +24,11 @@ A brief description of what this project does and who it's for
 
         1. Lower marketing and acquisition costs
         2. Higher conversion rates with less time wasted
-        3. Increase in sales and marketing alignment: When you implement a method for scoring leads, 
-           you’re ensuring that every lead passed onto sales is qualified, boosting your conversion rate, and strengthening the relationship between the two departments.
+        3. Increase in sales and marketing team alignment: When you implement a method for scoring leads, 
+           you’re ensuring that every lead passed onto sales team are qualified, boosting your conversion rate, and strengthening the relationship between the these two departments.
         4. Higher revenue
 
-- End result should be an ML model, which can categorize given leads into `COLD LEADS`,`WARM LEADS`,`HOT LEADS`.
+- Client is looking for an end result which a ML model, which can categorize given leads into `COLD LEADS`,`WARM LEADS`,`HOT LEADS`.
 
 
 ## Data understanding & EDA
@@ -399,6 +398,16 @@ Let's see distribution
          2. Warm Leads - threshold is >=30 and <=70
          3. Cold Leads - threshold is <30
 
+
+##### 🔗 Find the deployment link on Heroku
+
+[click here](https://leadscoremodel.herokuapp.com/)
+
+##### 🔗 Project explanation video link
+
+[click here](https://youtu.be/JAvUlAkJtqM)
+
+
 ## Failed Experiements
 
 - Tried multiple ways to solve this imbalanced classification probem.
@@ -479,3 +488,6 @@ Let's see distribution
 
 - Even this approach failed Random Forest gave recall of average 0.21 on two clusters, XGBoost gave avg. recall of 0.20, Logistic Regressor gave avg. recall of 0.15.
 
+References:
+### Precision-Recall curve blog 
+[click here](https://medium.com/@douglaspsteen/precision-recall-curves-d32e5b290248#:~:text=In%20a%20perfect%20classifier%2C%20AUC,have%20AUC%2DPR%20%3D%200.5.)
