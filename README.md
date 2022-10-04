@@ -5,7 +5,7 @@
 
 
 
-[What Lead Score means...??](https://linktodocumentation)
+### What Lead Score means...??
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/1_.jpg?raw=true)
 
@@ -83,7 +83,7 @@ Let's see distribution
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/8_.jpg?raw=true)
 
-- Let's see the frequencies of each catogories
+- Let's see the frequencies of each category
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/9_.jpg?raw=true)
 
@@ -208,7 +208,7 @@ Let's see distribution
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/31_.jpg?raw=true)
 
 - `number of contacts performed before this campaign and for this client (numeric)`
-- `previous` column shows 7 categories, Minimun shows 0 times and maximun shows 7 times
+- `previous` column shows 7 categories, Minimum shows 0 times and maximum shows 7 times
 - `previous` shows high correlation with `pdays,poutcome and euribor3m` columns
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/32_.jpg?raw=true)
@@ -322,7 +322,7 @@ Let's see distribution
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/52_.jpg?raw=true)
 
 
-#### Let's Bi-variate analysis between Indepenednt columns with Target column 
+#### Let's Bi-variate analysis between Independent columns with Target column 
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/53_.jpg?raw=true)
 
@@ -341,17 +341,17 @@ Let's see distribution
 
 #### Observations are
 
-- Customers of `age` between 30 to 40 years tend to convert more than other age categoies
-- Customers who works in services, admin, blue-collar, technicain, retired,managment and students categories have more chance of conversion.
+- Customers of `age` between 30 and 40 years tend to convert more than other age categories
+- Customers who work in services, admin, blue-collar, technician, retired, management and students categories have more chance of conversion.
 - Customers who are married or single have more chance of conversion.
 - Customers who've done high school, degree or professional course have more chance of conversion.
-- Customers who does't have  personal loan have more chance of conversion.
-- Customers who uses cell phone have more chance of conversion than telephone.
+- Customers who doesn't have  personal loan have more chance of conversion.
+- Customers who use cell phone have more chance of conversion than telephone.
 - Chances of conversion is more during `April to August`.
 - Customers who doesn't convert even after contacting 4 times during campaign. are very rare to convert even if we try to contact more number of times.
 - From `pdays` column we can see Chances of conversion of customers who was not part of last campaign is high.
 - From `previous` column we can see Customers who were never contacted before have higher conversion.
-- From `poutcome` column we can see Customers who were not part of last campanign and Customers who converted during last campanign have higher conversion.
+- From `poutcome` column we can see Customers who were not part of last campaign and Customers who converted during last campaign have higher conversion.
 - From `cons.price.idx` column we can see Customers conversion was decreasing with increase in consumer price index (Inflation)
 - Columns `cons.price.idx, cons.conf.idx, euribor3m, and nr.employed` doesn't shows any visible relationship with `y`.
 
@@ -361,9 +361,9 @@ Let's see distribution
 - Dropped `default`,`pdays`, and `duration` columns.
 - Renaming column names `emp.var.rate to emp_var_rate`,`cons.price.idx to cons_price_idx`,`cons.conf.idx to cons_conf_idx`,`nr.employed to nr_employed`
 - Dropped duplicate values from dataset (2008 records)
-- Categories which is lass than 5% occurance in `job`, `education`and `month` are combined to a single category named `other`
-- Similarly categories less than 5% in `campaign` column is combined to a class called `more_than_4`
-- Similarly categories less than 5% in `previous` column is combined to a class called `more_than_1`
+- Categories which is lass than 5% occurrence in `job`, `education`and `month` are combined to a single category named `other`
+- Similarly, categories less than 5% in `campaign` column is combined to a class called `more_than_4`
+- Similarly, categories less than 5% in `previous` column is combined to a class called `more_than_1`
 - Applying  OrdinalEncoder on `education, campaign, previous` columns
 - Applying OnehotEncoding on `job`, `marital`, `housing`, `loan`, `contact`, `month`, `day_of_week`, `poutcome`
 - Applying LabelEncoding on target column `y`.
@@ -374,14 +374,14 @@ Let's see distribution
 
 
 
-## Model Bulding and Evaluation
+## Model Building and Evaluation
 - Used Logistic Regression, Decision Tree, SVC, Random Forest and XGBoost initially
 - Decision tree was getting biased towards majority class
 - SVC was taking more time for training, so due to lack of resource I've not used SVC.
 - Logistic Regression gave better result compared to Random Forest and XGBoost classifiers.
 - Results are below.
 
-#### Logestic Regressor
+#### Logistic Regressor
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/76_.jpg?raw=true)
 
 #### Random Forest Classifier
@@ -413,10 +413,10 @@ Let's see distribution
 - Tried multiple ways to solve this imbalanced classification probem.
 
 - Feature engg steps 1 to step 9 were same
-- Since `emp.var.rate`,`cons.price.idx`, `cons.conf.idx`, `euribor3m`,`nr.employed` columns are actually continous values, but because of only few range of data present it shows up like categorical. 
+- Since `emp.var.rate`,`cons.price.idx`, `cons.conf.idx`, `euribor3m`,`nr.employed` columns are actually continuous values, but because of only few range of data present it shows up like categorical. 
    So I'm applying equal width binning on these column and converting into classes.
 - For outlier handling I've tried with dropping outliers, mean & median has tried.
-- Since we have Imbalanced data, while dropping the outliers we are loosing few reords from minor category. So this method is not choosen.
+- Since we have Imbalanced data, while dropping the outliers we are loosing few records from minor category. So this method is not chosen.
 - For Mean and median methods, I've first converted all the outliers into Null values and then tried Imputed these nulls are  with mean as well as median.  
   But results were not good. It changed the distribution of data.
 
@@ -445,7 +445,7 @@ Let's see distribution
 
 
 
-## Model training approches
+## Model training approaches
 
 #### Method-1 (Applying Class Weights)
 
@@ -463,22 +463,22 @@ Let's see distribution
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/66_.jpg?raw=true)
 
-- The prediction from KMeans is concatinated to the dataset and lets see the sample of data
+- The prediction from KMeans is concatenated to the dataset and let's see the sample of data
 - From sample data we are considering 3 records, In this `2 records have cluster = 1` and `3rd record have cluster = 0`.
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/67_.jpg?raw=true)
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/68_.jpg?raw=true)
 
-- Now we need to concatinate y column also to create seperate dataset for cluster 0 and cluster 1
+- Now we need to concatenate y column also to create separate dataset for cluster 0 and cluster 1
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/69_.jpg?raw=true)
 
-- Lets create seperate dataframes for based on cluster
+- Let's create separate dataframes for based on cluster
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/70_.jpg?raw=true)
 
-- Lets's see value_counts of target colum on each dataset
+- Let's see value_counts of target colum on each dataset
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/71_.jpg?raw=true)
 
