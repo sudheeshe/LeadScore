@@ -123,3 +123,8 @@
 2022-10-09/16:19:03		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
 2022-10-09/16:19:03		Returning dataframes x_train, x_val, y_train, y_val.
 2022-10-09/16:19:03		Leaving data_pipeline method of stage_3 class
+2022-10-09/16:17:22		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/16:17:33		Successfully completed Feature engineering on the dataset.
+2022-10-09/16:17:33		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/16:17:33		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/16:17:33		Leaving data_pipeline method of stage_3 class
