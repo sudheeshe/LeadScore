@@ -7,7 +7,7 @@
 
 ### What Lead Score means...??
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/1_.jpg?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/1_.jpg?raw=true)
 
 
 - `Lead scoring:` is a popular methodology used by marketing and sales teams 
@@ -44,15 +44,15 @@
 
 Let's see the sample of data 
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/2_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/2_.jpg?raw=true)
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/3_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/3_.jpg?raw=true)
 
 - The data have 20 columns including target column `y` after dropping `duration` columns
 - There is 41188 records
 - There is no missing values and 1528 duplicate values (3.7%) of total data
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/4_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/4_.jpg?raw=true)
 
 - There are many High correlation alerts which we will see in detail later on.
 
@@ -60,7 +60,7 @@ Now lets see each column in detail
 
 `Column - age`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/5_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/5_.jpg?raw=true)
 
 - Mean age is `40 years`
 - Min age shows `17 years` and Max is `98 years`
@@ -69,135 +69,135 @@ Now lets see each column in detail
 
 Let's see distribution
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/6_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/6_.jpg?raw=true)
 
 - its a little `Right Skewed` distribution
 
 `Column - job`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/7_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/7_.jpg?raw=true)
 
 - `type of job`
 - `job` column shows 12 categories.
 - From alerts `job have high correlation with age and education` columns
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/8_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/8_.jpg?raw=true)
 
 - Let's see the frequencies of each category
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/9_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/9_.jpg?raw=true)
 
 
 `Column - marital`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/10_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/10_.jpg?raw=true)
 
 - `marital status `
 - `marital` column shows 4 categories
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/11_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/11_.jpg?raw=true)
 
 - category `married` and `single` are in majority
 
 
 `Column - education`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/12_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/12_.jpg?raw=true)
 
 - `education` column have 8 categories
 - From alerts `education have high correlation with job` columns
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/13_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/13_.jpg?raw=true)
 
 
 `Column - default`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/14_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/14_.jpg?raw=true)
 
 - `has credit in default?`
 - `default` column shows 3 categories 
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/15_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/15_.jpg?raw=true)
 
 - 79.1 % are `non defaule customers` and 20.9% customers atatus are `unkown` and only 0.1% are `default`
 - This column is of no use on prediction.
 
 `Column - housing`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/16_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/16_.jpg?raw=true)
 
 - `has housing loan?`
 - `housing` column have 3 categories
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/17_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/17_.jpg?raw=true)
 
 - `housing` have high correlation with `loan` colum
 
 `Column - loan`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/18_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/18_.jpg?raw=true)
 
 - `has personal loan`
 - `loan` column have 3 categories
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/19_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/19_.jpg?raw=true)
 
 - 82.4% customers not taken personal loan and 15.2% not have personal loan and 2.4% is unknown status
 - `loan` have high correlation with `housing` column
 
 `Column - contact`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/20_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/20_.jpg?raw=true)
 
 - `contact communication type`
 - `contact` column have 2 categories
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/21_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/21_.jpg?raw=true)
 
 - majority are cell phone users 63.5% and 36.5% are telephone users
 - `contact` have high correlation with `month, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, and nr.employed` columns
 
 `Column - month`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/22_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/22_.jpg?raw=true)
 
 - `last contact month of year`
 - `month` have 10 categories, sine `Jan and Feb` are not available in dataset.
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/23_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/23_.jpg?raw=true)
 
 - `month` have high correlation with `contact, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, and nr.employed` columns
 
 `Column - day_of_week`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/24_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/24_.jpg?raw=true)
 
 - `last contact day of the week`
 - `day_of_week` have 5 categories, weekends are not founded in dataset
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/25_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/25_.jpg?raw=true)
 
 
 `Column - campaign`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/26_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/26_.jpg?raw=true)
 
 - `number of contacts performed during this campaign and for this client`
 - `column` shows outliers towards higher end `95th percentile is 7 times` and `max value is 56 times`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/27_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/27_.jpg?raw=true)
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/28_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/28_.jpg?raw=true)
 
 - from the above plot we can see mostly company got contacted only once and maximum number of time is 8.
 
 `Column - pdays`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/29_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/29_.jpg?raw=true)
 
 - `number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/30_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/30_.jpg?raw=true)
 
 - `pdays` have 27 categories. in 96.3% customers was not contacted on previous marketing campaign.
 - `pdays` can be removed from dataset
@@ -205,33 +205,33 @@ Let's see distribution
 
 `Column - previous`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/31_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/31_.jpg?raw=true)
 
 - `number of contacts performed before this campaign and for this client (numeric)`
 - `previous` column shows 7 categories, Minimum shows 0 times and maximum shows 7 times
 - `previous` shows high correlation with `pdays,poutcome and euribor3m` columns
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/32_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/32_.jpg?raw=true)
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/33_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/33_.jpg?raw=true)
 
 - common value shows 0 and 1
 
 `Column - poutcome`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/34_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/34_.jpg?raw=true)
 
 - `outcome of the previous marketing campaign`
 - shows `failure 10% , nonexistent 86.3%, and success is only 3.3%`.
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/35_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/35_.jpg?raw=true)
 
 - `poutcome` shows high correlation with `pdays,previous, cons.price.idx, cons.conf.idx, euribor3m and nr.employed` columns
 
 
 `Column - emp.var.rate`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/36_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/36_.jpg?raw=true)
 
 - `employment variation rate/ Index- quarterly indicator (numeric)`
 - employment variation rate/ Index tell the change in employment from last quarter to this quarter
@@ -239,11 +239,11 @@ Let's see distribution
   was 6.1 and current is 6.8 means employment variation rate/ Index will be 0.7 (i.e. 6.8 - 6.1)
   Similarly if previous was 6.8 and current is 5.5 then employment variation rate/ Index will be -1.3.
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/37_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/37_.jpg?raw=true)
 
 - let's see the common values
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/38_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/38_.jpg?raw=true)
 
 - `emp.var.rate` shows high correlation with `contact,month, poutcome, cons.conf.idx, euribor3m and nr.employed` columns
 
@@ -251,7 +251,7 @@ Let's see distribution
 `Column - cons.price.idx`
 
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/39_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/39_.jpg?raw=true)
 
 - `consumer price index - monthly indicator (numeric)` 
 
@@ -259,58 +259,58 @@ Let's see distribution
 
 
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/40_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/40_.jpg?raw=true)
 
 - Let's see common values
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/41_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/41_.jpg?raw=true)
 
 - `cons.price.idx` shows high correlation with `contact,month, poutcome, emp.var.rate, euribor3m and nr.employed` columns
 
 `Column - cons.conf.idx`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/42_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/42_.jpg?raw=true)
 
 - `consumer confidence index - monthly indicator (numeric)`
 - Consumer Confidence Index indicates that measures how optimistic or pessimistic consumers are regarding their expected financial situation. The CCI is based on the premise that if consumers are optimistic, they will spend more and stimulate the economy but if they are pessimistic then their spending patterns could lead to an economic slowdown or recession.
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/43_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/43_.jpg?raw=true)
 
 - Let's see common values
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/44_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/44_.jpg?raw=true)
 
 
 `Column - euribor3m`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/45_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/45_.jpg?raw=true)
 
 - `euribor 3 month rate - daily indicator (numeric)`
 - euribor rates is the basic rate of interest used in lending between banks on the European Union interbank market and also used as a reference for setting the interest rate on other loans.
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/46_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/46_.jpg?raw=true)
 
 -Let's see common values
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/47_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/47_.jpg?raw=true)
 
 
 `Column - nr.employed`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/48_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/48_.jpg?raw=true)
 
 - `number of employees - quarterly indicator (numeric)`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/49_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/49_.jpg?raw=true)
 
 - Let's see common values
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/50_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/50_.jpg?raw=true)
 
 
 `Column - y`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/51_.png?raw=true)
+![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/51_.jpg?raw=true)
 
 - `the client subscribed a term deposit? (binary: 'True','False')`
 
