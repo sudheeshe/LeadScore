@@ -13,3 +13,30 @@
 2022-09-30/02:08:14		x_train & y_train dataframes read successfully
 2022-09-30/02:08:14		LogisticRegressor trained successfully
 2022-09-30/02:08:14		LogisticRegressor model saved successfully
+2022-10-09/15:33:16		x_train & y_train dataframes read successfully
+2022-10-09/15:33:40		XGBClassifier trained successfully
+2022-10-09/15:33:40		XGBClassifier model saved successfully
+2022-10-09/15:37:22		x_train & y_train dataframes read successfully
+2022-10-09/15:37:47		XGBClassifier trained successfully
+2022-10-09/15:37:47		XGBClassifier model saved successfully
+2022-10-09/15:45:11		x_train & y_train dataframes read successfully
+2022-10-09/15:45:35		XGBClassifier trained successfully
+2022-10-09/15:45:35		XGBClassifier model saved successfully
+2022-10-09/15:50:02		x_train & y_train dataframes read successfully
+2022-10-09/15:50:26		XGBClassifier trained successfully
+2022-10-09/15:50:26		XGBClassifier model saved successfully
+2022-10-09/15:51:05		x_train & y_train dataframes read successfully
+2022-10-09/15:52:21		BalancedRandomForestClassifier trained successfully
+2022-10-09/15:52:24		BalancedRandomForestClassifier model saved successfully
+2022-10-09/16:04:05		x_train & y_train dataframes read successfully
+2022-10-09/16:04:28		XGBClassifier trained successfully
+2022-10-09/16:04:29		XGBClassifier model saved successfully
+2022-10-09/16:05:08		x_train & y_train dataframes read successfully
+2022-10-09/16:06:21		BalancedRandomForestClassifier trained successfully
+2022-10-09/16:06:24		BalancedRandomForestClassifier model saved successfully
+2022-10-09/16:17:44		x_train & y_train dataframes read successfully
+2022-10-09/16:18:15		XGBClassifier trained successfully
+2022-10-09/16:18:15		XGBClassifier model saved successfully
+2022-10-09/16:19:03		x_train & y_train dataframes read successfully
+2022-10-09/16:20:31		BalancedRandomForestClassifier trained successfully
+2022-10-09/16:20:41		BalancedRandomForestClassifier model saved successfully

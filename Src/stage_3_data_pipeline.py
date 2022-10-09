@@ -6,7 +6,7 @@ from Src.stage_2_feature_engineering import FeatureEngineering
 from Src.logger import AppLogger
 
 
-#################################  Reading dataset   ###############################
+
 class DataPipeline:
 
     def __init__(self):
@@ -23,6 +23,7 @@ class DataPipeline:
             self.logger.log(self.file,
                             f'Inside data_pipeline method of stage_3 class >>> Started data preprocessing ')
 
+            #################################  Reading dataset   ###############################
             reader = ReadData()
             full_df = reader.read_data('D:/Ineuron/Project_workshop/LeadScore/Data/raw_data.csv')
 

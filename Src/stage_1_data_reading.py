@@ -10,7 +10,6 @@ class ReadData:
 
     def __init__(self):
         self.logger = AppLogger()
-
         self.file = open('D:/Ineuron/Project_workshop/LeadScore/Logs/Data_reading_log.txt', 'a+')
 
     def read_data(self,data):

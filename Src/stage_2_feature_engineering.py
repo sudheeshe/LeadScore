@@ -12,7 +12,7 @@ from Src.logger import AppLogger
 class FeatureEngineering:
 
     def __init__(self):
-        self.file = open('D:/Ineuron/Project_workshop/LeadScore/Logs/FeatureEngg_logs.txt','a+')
+        self.file = open('D:/Ineuron/Project_workshop/LeadScore/Logs/FeatureEngg_logs.txt', 'a+')
         self.logger = AppLogger()
 
     def drop_columns(self, data, columns, axis='columns'):

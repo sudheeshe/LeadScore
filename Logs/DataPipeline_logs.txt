@@ -43,3 +43,83 @@
 2022-09-30/02:08:14		Saving the dataset @ Data/x_train.csv, Data/y_train.csv.
 2022-09-30/02:08:14		Returning dataframes x_train, y_train.
 2022-09-30/02:08:14		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:25:11		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:25:21		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:25:21		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:25:21		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:25:21		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:25:50		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:26:00		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:26:00		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:26:00		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:26:00		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:33:06		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:33:16		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:33:16		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:33:16		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:33:16		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:32:56		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:33:06		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:33:06		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:33:06		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:33:06		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:37:12		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:37:22		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:37:22		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:37:22		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:37:22		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:37:03		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:37:12		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:37:12		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:37:12		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:37:12		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:45:02		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:45:11		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:45:11		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:45:11		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:45:11		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:44:52		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:45:01		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:45:01		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:45:01		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:45:01		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:49:52		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:50:01		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:50:01		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:50:01		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:50:01		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:50:55		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:51:05		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:51:05		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:51:05		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:51:05		Leaving data_pipeline method of stage_3 class
+2022-10-09/15:49:43		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/15:49:52		Successfully completed Feature engineering on the dataset.
+2022-10-09/15:49:52		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/15:49:52		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/15:49:52		Leaving data_pipeline method of stage_3 class
+2022-10-09/16:03:55		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/16:04:05		Successfully completed Feature engineering on the dataset.
+2022-10-09/16:04:05		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/16:04:05		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/16:04:05		Leaving data_pipeline method of stage_3 class
+2022-10-09/16:04:58		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/16:05:08		Successfully completed Feature engineering on the dataset.
+2022-10-09/16:05:08		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/16:05:08		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/16:05:08		Leaving data_pipeline method of stage_3 class
+2022-10-09/16:03:46		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/16:03:55		Successfully completed Feature engineering on the dataset.
+2022-10-09/16:03:55		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/16:03:55		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/16:03:55		Leaving data_pipeline method of stage_3 class
+2022-10-09/16:17:33		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/16:17:44		Successfully completed Feature engineering on the dataset.
+2022-10-09/16:17:44		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/16:17:44		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/16:17:44		Leaving data_pipeline method of stage_3 class
+2022-10-09/16:18:52		Inside data_pipeline method of stage_3 class >>> Started data preprocessing 
+2022-10-09/16:19:03		Successfully completed Feature engineering on the dataset.
+2022-10-09/16:19:03		Saving the dataset @ Data/processed_data/x_train.csv, Data/processed_data/y_train.csv. Data/processed_data/x_val.csv, Data/processed_data/y_val.csv
+2022-10-09/16:19:03		Returning dataframes x_train, x_val, y_train, y_val.
+2022-10-09/16:19:03		Leaving data_pipeline method of stage_3 class
