@@ -56,13 +56,13 @@ def result():
     output = ""
 
     if result_2[0][1]>0.70:
-        output=  f"          It's a HOT LEAD,   There is chances of {np.round(result_2[0][1], 2) * 100}% of conversion"
+        output=  f"          It's a HOT LEAD,   There is chances of {np.round(result_2[0][1], 2) * 100}% for conversion"
 
     elif 0.30 <= result_2[0][1] <= 0.70:
-        output = f"          It's a  WARM LEAD, There is chances of {np.round(result_2[0][1], 2) * 100}% of conversion"
+        output = f"          It's a  WARM LEAD, There is chances of {np.round(result_2[0][1], 2) * 100}% for conversion"
 
     elif  result_2[0][1] < 0.30:
-        output =  f"          It's a COLD LEAD: There is chances of only {np.round(result_2[0][1], 2) * 100}% of conversion"
+        output =  f"          It's a COLD LEAD: There is chances of only {np.round(result_2[0][1], 2) * 100}% for conversion"
 
     return render_template('result.html', result=output)
 
