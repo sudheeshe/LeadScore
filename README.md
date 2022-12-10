@@ -119,7 +119,7 @@ Let's see distribution
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/15_.jpg?raw=true)
 
-- 79.1 % are `non defaule customers` and 20.9% customers atatus are `unkown` and only 0.1% are `default`
+- 79.1 % are `non defaule customers` and 20.9% customers status are `unkown` and only 0.1% are `default`
 - This column is of no use on prediction.
 
 `Column - housing`
@@ -162,7 +162,7 @@ Let's see distribution
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/22_.jpg?raw=true)
 
 - `last contact month of year`
-- `month` have 10 categories, sine `Jan and Feb` are not available in dataset.
+- `month` have 10 categories, since `Jan and Feb` are not available in dataset.
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/23_.jpg?raw=true)
 
@@ -183,7 +183,7 @@ Let's see distribution
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/26_.jpg?raw=true)
 
 - `number of contacts performed during this campaign and for this client`
-- `column` shows outliers towards higher end `95th percentile is 7 times` and `max value is 56 times`
+- `column` shows outliers towards higher end `95th percentile is 7 times but max value is 56 times`
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/27_.jpg?raw=true)
 
@@ -405,7 +405,7 @@ Let's see distribution
 
 ##### 🔗 Project explanation video link
 
-[click here](https://youtu.be/JAvUlAkJtqM)
+[click here]()
 
 
 ## Failed Experiements
