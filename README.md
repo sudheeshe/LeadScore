@@ -375,6 +375,7 @@ Let's see distribution
 
 
 ## Model Building and Evaluation
+- Here I've used normal AUC score for comparing model since we are upsampling the data. (If we are not upsampling the data we need to use PR-AUC score for comparing models)
 - Used Logistic Regression, Decision Tree, SVC, Random Forest and XGBoost initially
 - Decision tree was getting biased towards majority class
 - SVC was taking more time for training, so due to lack of resource I've not used SVC.
