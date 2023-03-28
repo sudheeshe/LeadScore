@@ -253,8 +253,8 @@ Let's see distribution
 
 - `consumer price index - monthly indicator (numeric)` 
 
-#### 🔗 what consumer price index [Click the link](https://www.investopedia.com/terms/c/consumerpriceindex.asp)
 
+- The `Consumer Price Index (CPI)` is a measure of the average change in prices of goods and services bought by households over time. It is used to track inflation and to understand how the cost of living is changing for consumers. The CPI is calculated by comparing the cost of a fixed basket of goods and services, such as food, housing, transportation, and medical care, over time. The percentage change in the CPI from one period to another reflects the rate of inflation over that period.
 
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/40_.jpg?raw=true)
@@ -270,8 +270,7 @@ Let's see distribution
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/42_.jpg?raw=true)
 
 - `consumer confidence index - monthly indicator (numeric)`
-- Consumer Confidence Index indicates that measures how optimistic or pessimistic consumers are regarding their expected financial situation. The CCI is based on the premise that if consumers are optimistic, they will spend more and stimulate the economy but if they are pessimistic then their spending patterns could lead to an economic slowdown or recession.
-
+- The `Consumer Confidence Index (CCI)` is a measure of how optimistic or pessimistic consumers are about the economy and their personal financial situation. It is based on surveys of a representative sample of consumers and asks them about their current and future expectations for income, employment, and business conditions. The CCI is used to gauge the overall mood of consumers and their willingness to spend money on goods and services. A high CCI suggests that consumers are feeling confident and likely to spend money, while a low CCI suggests the opposite. The CCI is an important indicator for businesses and policymakers as it can provide insight into future consumer spending and economic activity.
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/43_.jpg?raw=true)
 
 - Let's see common values
@@ -284,7 +283,8 @@ Let's see distribution
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/45_.jpg?raw=true)
 
 - `euribor 3 month rate - daily indicator (numeric)`
-- euribor rates is the basic rate of interest used in lending between banks on the European Union interbank market and also used as a reference for setting the interest rate on other loans.
+- `EURIBOR stands for Euro Interbank Offered Rate` and it is the interest rate at which Eurozone banks lend to one another on an unsecured basis. In other words, it is the rate at which banks borrow money from each other.
+- EURIBOR rates are important because they are used as a reference rate for a wide range of financial instruments, including mortgages, loans, and derivatives. For example, a variable-rate mortgage may be set at a certain percentage above the EURIBOR rate. As a result, changes in EURIBOR rates can have a significant impact on borrowing costs for consumers and businesses.
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/46_.jpg?raw=true)
 
