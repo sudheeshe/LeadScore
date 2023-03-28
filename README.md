@@ -234,10 +234,8 @@ Let's see distribution
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/36_.jpg?raw=true)
 
 - `employment variation rate/ Index- quarterly indicator (numeric)`
-- employment variation rate/ Index tell the change in employment from last quarter to this quarter
-- Like example if previous employment rate (measure of the proportion of a country's working age population that is employed. This includes people that have stopped looking for work) 
-  was 6.1 and current is 6.8 means employment variation rate/ Index will be 0.7 (i.e. 6.8 - 6.1)
-  Similarly if previous was 6.8 and current is 5.5 then employment variation rate/ Index will be -1.3.
+- The Employment Variation Index (EVI) is a tool that helps us understand how much jobs change over time. It looks at how many jobs are gained or lost in a particular industry or economy and gives us a number that tells us how much those job numbers go up and down. So if the EVI is high, it means that job numbers are changing a lot, and if it's low, it means that job numbers are more stable. 
+- In our case its from last quarter to this quarter
 
 ![alt text](https://github.com/sudheeshe/LeadScore/blob/main/Images_for_readme/37_.jpg?raw=true)
 
